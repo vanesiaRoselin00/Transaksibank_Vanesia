@@ -37,10 +37,6 @@ public class App {
             }
         }
 
-        // for(Transaksibank trs : trans){
-        //     System.out.println("Nama nasabah = " + trs.nama + " dengan nomor rekening " + trs.nomorRekening + " dan saldo Rp " + trs.saldo);
-        // }
-
     }
 
     public static int pilihMenu(Scanner keyboard){
@@ -63,10 +59,6 @@ public class App {
     }
 
     public static void cekSaldoAkun(Transaksibank t1, Transaksibank t2){
-        // Transaksibank susi = new Transaksibank("Susi", 1234567, 500000);
-        // Transaksibank budi = new Transaksibank("Budi", 8910111, 500000);
-        
-        
         System.out.println("Nasabah " + t1.nama + " dengan nomor rekening " + t1.nomorRekening + " dan saldo " + t1.saldo);
         System.out.println("Nasabah " + t2.nama + " dengan nomor rekening " + t2.nomorRekening + " dan saldo " + t2.saldo);
     }
